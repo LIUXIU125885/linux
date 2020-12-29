@@ -47,7 +47,7 @@
 20.groupadd wyz_group
    useradd -G wyz_group wyz
    id wyz
-21.*.Z compress 程序压缩癿档案；  compress -v 文件名  //压缩   uncompress 文件名.Z //解压
+## 21.*.Z compress 程序压缩癿档案；  compress -v 文件名  //压缩   uncompress 文件名.Z //解压
    *.gz gzip 程序压缩癿档案；     gzip -v 文件名     // 压缩   gzip -d 文件名.gz //解压缩
    *.bz2 bzip2 程序压缩癿档案；    bzip2 -v                   bzip2 -d
    *.tar tar 程序打包癿数据，并没有压缩过； 
@@ -56,5 +56,6 @@
                                                 压 缩：tar -jcv -f filename.tar.bz2 要被压缩癿档案戒目录名称
                                                 查 询：tar -jtv -f filename.tar.bz2
                                                 解压缩：tar -jxv -f filename.tar.bz2 -C 欲解压缩癿目录
+                                                
    
    
